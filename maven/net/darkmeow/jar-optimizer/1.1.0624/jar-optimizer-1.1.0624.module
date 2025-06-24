@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.darkmeow",
+    "module": "jar-optimizer",
+    "version": "1.1.0624",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jar-optimizer-1.1.0624.jar",
+          "url": "jar-optimizer-1.1.0624.jar",
+          "size": 16676,
+          "sha512": "d5088279f5515a4592a57197a143b54b5dc2998abe55beae05be848e18227f7235107ba5c3560efdaa045c7ae0c94e6e4194cb2d17101719f4531aa917dd90ee",
+          "sha256": "6188eb212f80209b4dc92e1ba6d9fcfd55084034ac1ab1a006fa669b3f59a757",
+          "sha1": "4e35af0392c37624e580e4e09d9e54c30329e569",
+          "md5": "8ce5dac05f59ff03fbf4979be33a3336"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.darkmeow",
+          "module": "jar-optimizer-core",
+          "version": {
+            "requires": "1.1.0624"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.16"
+          }
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jar-optimizer-1.1.0624.jar",
+          "url": "jar-optimizer-1.1.0624.jar",
+          "size": 16676,
+          "sha512": "d5088279f5515a4592a57197a143b54b5dc2998abe55beae05be848e18227f7235107ba5c3560efdaa045c7ae0c94e6e4194cb2d17101719f4531aa917dd90ee",
+          "sha256": "6188eb212f80209b4dc92e1ba6d9fcfd55084034ac1ab1a006fa669b3f59a757",
+          "sha1": "4e35af0392c37624e580e4e09d9e54c30329e569",
+          "md5": "8ce5dac05f59ff03fbf4979be33a3336"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.1.0624-sources.jar",
+          "url": "jar-optimizer-1.1.0624-sources.jar",
+          "size": 2469,
+          "sha512": "e49bfeeb9661eb262c5d810fc995eaced4052d40ded293378482de0dcea96a487d2f21606786bbdf16ec759363f4ea9187f1aaa284955312d53b5e38326c9fab",
+          "sha256": "6540ffb1c7d0faedebb83912576c868d86d9bb610fa31f6074c7f5f332a7f828",
+          "sha1": "910396f65ab65fa7cdc06c1d7b1818d38c7cfe2d",
+          "md5": "27335c5037fab6357623b921acd4b5d5"
+        }
+      ]
+    }
+  ]
+}
