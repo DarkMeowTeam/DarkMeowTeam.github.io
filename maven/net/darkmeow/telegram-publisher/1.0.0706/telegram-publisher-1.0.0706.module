@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.darkmeow",
+    "module": "telegram-publisher",
+    "version": "1.0.0706",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telegram-publisher-1.0.0706.jar",
+          "url": "telegram-publisher-1.0.0706.jar",
+          "size": 11651,
+          "sha512": "a60ef4249144e52b8cecf2459151093ec8bcbd7042ec22f509505c057838e8161eced0c31256d06b7123cd19103e7117726d20233e123cf501f53df819fae3f8",
+          "sha256": "abc05b841fd35a7f95732731a3c6d5e8ef82d4e0576e6f779f29a7b3bf9b1f20",
+          "sha1": "998bdc57e66e24db83b79ca54da21433002eb06d",
+          "md5": "133405c1d2ff0a48604bbbbde6c55fe3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "7.3.0.202506031305-r"
+          }
+        },
+        {
+          "group": "com.github.pengrad",
+          "module": "java-telegram-bot-api",
+          "version": {
+            "requires": "8.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telegram-publisher-1.0.0706.jar",
+          "url": "telegram-publisher-1.0.0706.jar",
+          "size": 11651,
+          "sha512": "a60ef4249144e52b8cecf2459151093ec8bcbd7042ec22f509505c057838e8161eced0c31256d06b7123cd19103e7117726d20233e123cf501f53df819fae3f8",
+          "sha256": "abc05b841fd35a7f95732731a3c6d5e8ef82d4e0576e6f779f29a7b3bf9b1f20",
+          "sha1": "998bdc57e66e24db83b79ca54da21433002eb06d",
+          "md5": "133405c1d2ff0a48604bbbbde6c55fe3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "telegram-publisher-1.0.0706-sources.jar",
+          "url": "telegram-publisher-1.0.0706-sources.jar",
+          "size": 3353,
+          "sha512": "c1519266f42e55082a3815427dd979a6f2f6b1bc7bdf4ed8f3a399871a41492d9f036d69a599cb32cbf1462f097d15396ac8e33d1542fc061f71cdda260b93f1",
+          "sha256": "4926d8bcd7c4e2aa65d4ac2d42e62afc20dc6090d971adaf576ab72599dc8171",
+          "sha1": "925243ff91bbcd66146123d12f6bd04e38ad7f37",
+          "md5": "0435edc805a09cc09a61878c9f9953ee"
+        }
+      ]
+    }
+  ]
+}
