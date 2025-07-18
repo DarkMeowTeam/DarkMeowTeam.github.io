@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.darkmeow",
+    "module": "kmogus-core",
+    "version": "1.1.0718",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmogus-core-1.1.0718.jar",
+          "url": "kmogus-core-1.1.0718.jar",
+          "size": 43827,
+          "sha512": "a31f11b00cd445f892ad6c55b57b1744a676dd7229a348e12c994d7e31ef748711dce232d9523542caa0ce247f27756387f28f3f1c7d4814396dc0d38edd3163",
+          "sha256": "f27938f48fe9bfb3dc664f120b37057c5be6ac655ca7860683a673c3865b8b76",
+          "sha1": "3c30bd9d4c9979c216584d9bffe38e30590a3956",
+          "md5": "21a80d0965c9d6d04c1c8013b96fa594"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmogus-core-1.1.0718.jar",
+          "url": "kmogus-core-1.1.0718.jar",
+          "size": 43827,
+          "sha512": "a31f11b00cd445f892ad6c55b57b1744a676dd7229a348e12c994d7e31ef748711dce232d9523542caa0ce247f27756387f28f3f1c7d4814396dc0d38edd3163",
+          "sha256": "f27938f48fe9bfb3dc664f120b37057c5be6ac655ca7860683a673c3865b8b76",
+          "sha1": "3c30bd9d4c9979c216584d9bffe38e30590a3956",
+          "md5": "21a80d0965c9d6d04c1c8013b96fa594"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmogus-core-1.1.0718-sources.jar",
+          "url": "kmogus-core-1.1.0718-sources.jar",
+          "size": 8239,
+          "sha512": "10d3a6fedaf02e244c9d931c2746300cfeb9b0d3946ccbab14c8dd3abc4ab2ba7d011e509739807db71e832000c704352e6c3f2881d72d0383b0855e03f4c08d",
+          "sha256": "676da3519d2e56d156c7b80530285a05227399bb405c63f4bfffb9647789402d",
+          "sha1": "e703cf420e5786f501b667128ed6451125ef7978",
+          "md5": "c7084a945b3d616a23faa4a07671f4bf"
+        }
+      ]
+    }
+  ]
+}

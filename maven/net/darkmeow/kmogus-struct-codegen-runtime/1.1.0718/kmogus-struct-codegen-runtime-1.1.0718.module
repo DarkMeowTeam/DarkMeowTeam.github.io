@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.darkmeow",
+    "module": "kmogus-struct-codegen-runtime",
+    "version": "1.1.0718",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmogus-struct-codegen-runtime-1.1.0718.jar",
+          "url": "kmogus-struct-codegen-runtime-1.1.0718.jar",
+          "size": 29274,
+          "sha512": "a7fb450fcbf035b829d2339168280b9211271ce01ea02f211b1bd2304402292c9a194cb9318710b43915fc304f8a3aeeb9ae4ec73b185b81d91dcabd19b0a952",
+          "sha256": "63f752f15f5136419f7051c6a09d351529ae6992a1619341e6e09e6aeb259c58",
+          "sha1": "9436d251eea398ca0d9dec5962c2e568beb2fc57",
+          "md5": "1dc74cd0287d0b2162140d36035af13d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.darkmeow",
+          "module": "kmogus-struct-api",
+          "version": {
+            "requires": "1.1.0718"
+          }
+        },
+        {
+          "group": "net.darkmeow",
+          "module": "ktgen-api",
+          "version": {
+            "requires": "1.1.0718"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmogus-struct-codegen-runtime-1.1.0718.jar",
+          "url": "kmogus-struct-codegen-runtime-1.1.0718.jar",
+          "size": 29274,
+          "sha512": "a7fb450fcbf035b829d2339168280b9211271ce01ea02f211b1bd2304402292c9a194cb9318710b43915fc304f8a3aeeb9ae4ec73b185b81d91dcabd19b0a952",
+          "sha256": "63f752f15f5136419f7051c6a09d351529ae6992a1619341e6e09e6aeb259c58",
+          "sha1": "9436d251eea398ca0d9dec5962c2e568beb2fc57",
+          "md5": "1dc74cd0287d0b2162140d36035af13d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmogus-struct-codegen-runtime-1.1.0718-sources.jar",
+          "url": "kmogus-struct-codegen-runtime-1.1.0718-sources.jar",
+          "size": 4321,
+          "sha512": "69cc892a686d12b5e7a54cdec754dd2ccfc7291a383e44138b9f54a1a6ef58645eb01fe97f88b411e2a8bd09b3179a4c01b31acb92359bafec5db60710205f5d",
+          "sha256": "8c6d328f5a927597f6ab946d2df6a6324e4d422949fb1b738f62d8a49fc6055e",
+          "sha1": "93f9f2bf2a5b87db08aadc0fcbc178150d11b0ff",
+          "md5": "eef6dc0019eb7611876e880121c4f317"
+        }
+      ]
+    }
+  ]
+}
