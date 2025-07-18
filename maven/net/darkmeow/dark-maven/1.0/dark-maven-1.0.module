@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.darkmeow",
+    "module": "dark-maven",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "dark-maven-1.0.jar",
+          "url": "dark-maven-1.0.jar",
+          "size": 6527,
+          "sha512": "be9daca0c5ec5c63daaee70d8237c7257a02351e0f7af91109b2e4d900f084786da9194380de10c3df28330673fff55a8c39cd096451b3742025e29a50cada28",
+          "sha256": "225b185a5771cc5da605e3da75d2aeceff57bd05f7389d09f37a9a6ce0e1d50e",
+          "sha1": "a6e5a5551fdace47df4e1130f7250d601ccd2b55",
+          "md5": "2739a5d59c3d154d699b3fccd6bcd9f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "dark-maven-1.0.jar",
+          "url": "dark-maven-1.0.jar",
+          "size": 6527,
+          "sha512": "be9daca0c5ec5c63daaee70d8237c7257a02351e0f7af91109b2e4d900f084786da9194380de10c3df28330673fff55a8c39cd096451b3742025e29a50cada28",
+          "sha256": "225b185a5771cc5da605e3da75d2aeceff57bd05f7389d09f37a9a6ce0e1d50e",
+          "sha1": "a6e5a5551fdace47df4e1130f7250d601ccd2b55",
+          "md5": "2739a5d59c3d154d699b3fccd6bcd9f1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dark-maven-1.0-sources.jar",
+          "url": "dark-maven-1.0-sources.jar",
+          "size": 1431,
+          "sha512": "51790c3505e455b034234c18de1f86206817b6e04633591f7b22179b8791792f63a2db14bddd1a75fffa5d95eef6850b2a75ed279aac48a60b9e6f9d0ce0a8e4",
+          "sha256": "0ca6e828bc408b0887bdfc95ef1e7b36dc013b3285eaad91620f535c0d2b5059",
+          "sha1": "95b6d8d51f3d9f24b0735393c83c02c322a13528",
+          "md5": "d02365b1cc0a0606ff58e41258ac0098"
+        }
+      ]
+    }
+  ]
+}
